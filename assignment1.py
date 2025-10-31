@@ -7,7 +7,7 @@ def find_period(L0, L1):
     if L1 > L0 > 0:
         for L in range(L0, L1 + 1):
             T = 2 * np.pi * np.sqrt(L / g)
-            print("When L = %4.1f m, T = %3.1f s\n" % (L, T))
+            print("When L = %4.1f m, T = %3.1f s" % (L, T))
     
     T0 = 2 * np.pi * np.sqrt(L0 / g)
     T1 = 2 * np.pi * np.sqrt(L1 / g)
